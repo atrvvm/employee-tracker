@@ -1,13 +1,13 @@
--- View all departments
+-- Return department data
 SELECT * 
 FROM department;
 
--- View all roles
+-- Return role data
 SELECT role.id, role.title, department.name AS department, role.salary
 FROM role
 JOIN department ON role.department_id = department.id;
 
--- View all employees
+-- Return employee data
 SELECT employee.id, employee.first_name, employee.last_name, role.title, 
     department.name AS department, role.salary, 
     CONCAT(manager.first_name, ' ', manager.last_name) AS manager 
