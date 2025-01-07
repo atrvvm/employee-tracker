@@ -134,3 +134,6 @@ node_modules/
 
 # gitattributes
 .gitattributes
+
+# .env
+.env
