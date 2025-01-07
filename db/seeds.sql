@@ -4,14 +4,14 @@ VALUES (1, 'Engineering'),
        (3, 'HR'),
        (4, 'Management');
 
-INSERT INTO roles (role_id, title, department, salary)
+INSERT INTO role (id, title, department_id, salary)
 VALUES (1, 'Senior Engineer', 1, 200000 ),
-       (2, 'Lead Designer', 1, 150000),
+       (2, 'Lead Designer', 2, 150000),
        (3, 'Human Resources', 3, 70000),
        (4, 'Product Manager', 4, 400000);
 
-INSERT INTO employees (id, first_name, last_name, role_id department, salary, manager_id)
-VALUES (1, 'Mike', 'Chan', 1, 1, 200000, 4),
-       (2, 'Lisa', 'Jewell', 2, 2, 150000, 4),
-       (3, 'Amber', 'Doe', 3, 3, 70000, NULL),
-       (4, 'Tina', 'Fey', 4, 4, 400000, NULL);
+INSERT INTO employee (id, first_name, last_name, role_id, manager_id)
+VALUES (1, 'Mike', 'Chan', 1, 4),
+       (2, 'Lisa', 'Jewell', 2, 4),
+       (3, 'Amber', 'Doe', 3, null),
+       (4, 'Tina', 'Fey', 4, null);
