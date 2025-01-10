@@ -33,3 +33,10 @@ THEN I am prompted to enter the employee’s first name, last name, role, and ma
 WHEN I choose to update an employee role
 THEN I am prompted to select an employee to update and their new role and this information is updated in the database 
 ```
+## Demo Preview
+https://github.com/user-attachments/assets/35082635-6e56-494b-b710-d31becb7e6da
+
+## Database Query
+![sqlQuery](https://github.com/user-attachments/assets/4381c857-3d4f-4cde-878f-e189957b2751)
+
+© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
