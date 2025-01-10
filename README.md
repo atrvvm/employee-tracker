@@ -36,6 +36,9 @@ THEN I am prompted to select an employee to update and their new role and this i
 ## Demo Preview
 https://github.com/user-attachments/assets/35082635-6e56-494b-b710-d31becb7e6da
 
+## Database Schema
+![image](https://github.com/user-attachments/assets/8aa4cec8-6096-45cd-a62c-86204c56d899)
+
 ## Database Query
 ![sqlQuery](https://github.com/user-attachments/assets/4381c857-3d4f-4cde-878f-e189957b2751)
 
