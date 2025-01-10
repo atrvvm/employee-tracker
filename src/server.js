@@ -50,7 +50,7 @@ function startQuery() {
                 break;
             case 'Quit':
                 console.log('Goodbye!');
-                db.end();
+                pool.end();
                 break;
         }
     });
